@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 120px;
+    border-radius: 10px;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url('../../assets/bg-shorten-desktop.svg');
+}
+
+
+input{
+    flex:2;
+    height: 40px;
+    margin: auto 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+}
+
+button{
+    flex: 1;
+    width: 100px;
+    height: 50px;
+    margin: auto 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+}

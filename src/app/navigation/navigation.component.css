@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-header {
+    display: flex;
+}
+
+.logo-svg {
+    flex: 1;
+}
+
+.header-menu{
+    flex: 6;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.leftside-options{
+    display: flex;
+}
+
+.option {
+    flex: 1;
+}
+
+.rightside-options{
+    display: flex;
+}
+.item {
+    flex: 1;
+}
